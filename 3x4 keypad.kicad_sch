@@ -5,7 +5,174 @@
 	(uuid "4651e618-6a69-4037-8893-35a3e4e0587c")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector:Conn_01x07_Pin"
+		(symbol "Diode:1N4148WT"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "1N4148WT"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_SMD:D_SOD-523"
+				(at 0 -4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "75V 0.15A Fast switching Diode, SOD-523"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "D"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "D*SOD?523*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "1N4148WT_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "1N4148WT_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "custom:Conn_01x07_Pin"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -29,7 +196,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Connector_Hirose:Hirose_DF13-07P-1.25DS_1x07_P1.25mm_Horizontal"
 				(at 0 0 0)
 				(effects
 					(font
@@ -54,14 +221,6 @@
 						(size 1.27 1.27)
 					)
 					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
 				)
 			)
 			(property "ki_keywords" "connector"
@@ -373,174 +532,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Diode:1N4148WT"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "1N4148WT"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Diode_SMD:D_SOD-523"
-				(at 0 -4.445 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "75V 0.15A Fast switching Diode, SOD-523"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Device" "D"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=K 2=A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "D*SOD?523*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "1N4148WT_0_1"
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "1N4148WT_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Switch:SW_Push"
+		(symbol "custom:SW_Push"
 			(pin_numbers
 				(hide yes)
 			)
@@ -568,7 +560,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Button_Switch_THT:SW_CW_GPTS203211B"
 				(at 0 5.08 0)
 				(effects
 					(font
@@ -905,16 +897,6 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 118.11) (xy 68.58 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2480a75b-a613-4e0f-b8ef-aa86a3efb24d")
-	)
-	(wire
-		(pts
 			(xy 104.14 53.34) (xy 97.79 53.34)
 		)
 		(stroke
@@ -922,6 +904,16 @@
 			(type default)
 		)
 		(uuid "264eacb6-b571-455c-b022-4d405a010dd1")
+	)
+	(wire
+		(pts
+			(xy 127 53.34) (xy 138.43 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d5d8f10-fcbe-4b03-a44e-7e4b3e18d1f4")
 	)
 	(wire
 		(pts
@@ -1002,16 +994,6 @@
 			(type default)
 		)
 		(uuid "5296d042-7c28-42f8-ab85-64f19f1c5c58")
-	)
-	(wire
-		(pts
-			(xy 104.14 118.11) (xy 97.79 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5b569720-b702-4f94-b16d-93bdc0dc3edf")
 	)
 	(wire
 		(pts
@@ -1105,6 +1087,16 @@
 	)
 	(wire
 		(pts
+			(xy 97.79 118.11) (xy 104.14 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7be480b5-ecdf-498d-b5d4-e153234de65f")
+	)
+	(wire
+		(pts
 			(xy 104.14 39.37) (xy 138.43 39.37)
 		)
 		(stroke
@@ -1145,13 +1137,13 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 53.34) (xy 127 53.34)
+			(xy 127 72.39) (xy 138.43 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9329d3cd-90fd-41d3-ba91-db4579452882")
+		(uuid "9547f733-636f-4be2-9a38-87adeb87f888")
 	)
 	(wire
 		(pts
@@ -1245,6 +1237,16 @@
 	)
 	(wire
 		(pts
+			(xy 127 95.25) (xy 138.43 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b321b96a-681c-4dc7-a52f-c5171bc10372")
+	)
+	(wire
+		(pts
 			(xy 40.64 59.69) (xy 76.2 59.69)
 		)
 		(stroke
@@ -1262,16 +1264,6 @@
 			(type default)
 		)
 		(uuid "bfe52626-821d-406e-88c0-9a57fd86d1ee")
-	)
-	(wire
-		(pts
-			(xy 127 95.25) (xy 138.43 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ce6ba2ca-a046-4631-ad41-0b16dc6ec93f")
 	)
 	(wire
 		(pts
@@ -1345,6 +1337,16 @@
 	)
 	(wire
 		(pts
+			(xy 68.58 118.11) (xy 76.2 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4aec4a6-579c-4318-b06e-668d160dfe5a")
+	)
+	(wire
+		(pts
 			(xy 43.18 81.28) (xy 43.18 116.84)
 		)
 		(stroke
@@ -1352,16 +1354,6 @@
 			(type default)
 		)
 		(uuid "f45b438e-ad93-4801-b661-792e12c02842")
-	)
-	(wire
-		(pts
-			(xy 138.43 72.39) (xy 127 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f7020b18-aae2-4302-993a-c934d3210170")
 	)
 	(wire
 		(pts
@@ -1461,6 +1453,142 @@
 		)
 	)
 	(symbol
+		(lib_id "custom:SW_Push")
+		(at 121.92 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1fc16e4b-5d4c-4a67-a117-358a7130167f")
+		(property "Reference" "SW3"
+			(at 121.92 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 121.92 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_THT:SW_CW_GPTS203211B"
+			(at 121.92 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 121.92 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 121.92 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "69a5e0af-56b7-4ea6-b349-2df4eac57358")
+		)
+		(pin "1"
+			(uuid "c5b21fd7-518e-4569-9754-f874b273b530")
+		)
+		(instances
+			(project "3x4 keypad"
+				(path "/4651e618-6a69-4037-8893-35a3e4e0587c"
+					(reference "SW3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "custom:SW_Push")
+		(at 63.5 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2ecc82e9-28ac-47c9-bfc8-84c8ff67c734")
+		(property "Reference" "SW1"
+			(at 63.5 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 63.5 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_THT:SW_CW_GPTS203211B"
+			(at 63.5 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 63.5 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 63.5 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1b55c076-d510-4fe6-9a20-94f2d0c3ab9e")
+		)
+		(pin "1"
+			(uuid "cb93801d-424f-4e33-8507-04dfafd101b3")
+		)
+		(instances
+			(project ""
+				(path "/4651e618-6a69-4037-8893-35a3e4e0587c"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Diode:1N4148WT")
 		(at 83.82 118.11 0)
 		(mirror y)
@@ -1548,99 +1676,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x07_Pin")
-		(at 33.02 119.38 0)
+		(lib_id "custom:SW_Push")
+		(at 92.71 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "5366d7b8-7fe4-4518-87da-3c2ff61a0518")
-		(property "Reference" "J1"
-			(at 33.655 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x07_Pin"
-			(at 33.655 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 33.02 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 33.02 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x07, script generated"
-			(at 33.02 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "7"
-			(uuid "f8e684ed-0aba-443d-902e-af4d56fe3f5e")
-		)
-		(pin "6"
-			(uuid "3b340312-a273-4743-9035-f1ee36d897be")
-		)
-		(pin "5"
-			(uuid "22e2214e-7c0b-4fc4-b94e-85479ddf3445")
-		)
-		(pin "4"
-			(uuid "f3c14afe-c4e9-47c1-93d6-f446a51bf626")
-		)
-		(pin "3"
-			(uuid "5acfd17b-7867-46a3-85dc-2e9256994b2f")
-		)
-		(pin "2"
-			(uuid "100e31fb-6601-491d-b78d-7fe455234ba0")
-		)
-		(pin "1"
-			(uuid "e1e427e8-55cf-45e7-8661-ca03d6b08a56")
-		)
-		(instances
-			(project ""
-				(path "/4651e618-6a69-4037-8893-35a3e4e0587c"
-					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 63.5 53.34 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5397d4a0-03b2-4493-b088-3fd53bade4ac")
-		(property "Reference" "SW1"
-			(at 63.5 45.72 0)
+		(uuid "44826694-2095-4fcb-883e-f1fe79502c29")
+		(property "Reference" "SW2"
+			(at 92.71 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1648,15 +1694,15 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 63.5 48.26 0)
+			(at 92.71 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 63.5 48.26 0)
+		(property "Footprint" "Button_Switch_THT:SW_CW_GPTS203211B"
+			(at 92.71 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1665,7 +1711,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 63.5 48.26 0)
+			(at 92.71 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1674,7 +1720,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 63.5 53.34 0)
+			(at 92.71 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1683,82 +1729,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "82bac445-24c1-4dd9-9922-b49d09c6928e")
+			(uuid "582de255-43a9-40da-9fbd-f636b6428747")
 		)
 		(pin "1"
-			(uuid "7bd5e084-efc4-4bca-99a3-453150678abd")
-		)
-		(instances
-			(project ""
-				(path "/4651e618-6a69-4037-8893-35a3e4e0587c"
-					(reference "SW1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 63.5 95.25 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "542ca8e0-fd3c-4e20-9fa8-b1ff460cbcfa")
-		(property "Reference" "SW7"
-			(at 63.5 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 63.5 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 63.5 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 63.5 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 63.5 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e37feb1f-a5ce-4be3-a9b6-b952a5cea97b")
-		)
-		(pin "1"
-			(uuid "df32fac7-2a5c-4fb6-978f-7d43e5f346b1")
+			(uuid "dc9dbdde-3f5c-424b-b8ab-07e78071996c")
 		)
 		(instances
 			(project "3x4 keypad"
 				(path "/4651e618-6a69-4037-8893-35a3e4e0587c"
-					(reference "SW7")
+					(reference "SW2")
 					(unit 1)
 				)
 			)
@@ -1852,74 +1831,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 92.71 95.25 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "593fd08f-aea6-42d7-b62f-1cac2f38f199")
-		(property "Reference" "SW9"
-			(at 92.71 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 92.71 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 92.71 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 92.71 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 92.71 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "8c3f5b1a-13da-4c23-8e6e-2faed0cb126e")
-		)
-		(pin "1"
-			(uuid "e7e3f1bd-1881-47d7-9323-44695069ae1a")
-		)
-		(instances
-			(project "3x4 keypad"
-				(path "/4651e618-6a69-4037-8893-35a3e4e0587c"
-					(reference "SW9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Diode:1N4148WT")
 		(at 54.61 95.25 0)
 		(mirror y)
@@ -2007,16 +1918,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 63.5 118.11 0)
+		(lib_id "custom:SW_Push")
+		(at 92.71 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "6b098ad3-0a1c-479c-94d0-04374343e6cd")
+		(fields_autoplaced yes)
+		(uuid "6234553c-17ac-4121-be48-5e96566455d3")
 		(property "Reference" "SW8"
-			(at 63.5 110.49 0)
+			(at 92.71 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2024,15 +1936,15 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 63.5 113.03 0)
+			(at 92.71 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 63.5 113.03 0)
+		(property "Footprint" "Button_Switch_THT:SW_CW_GPTS203211B"
+			(at 92.71 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2041,7 +1953,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 63.5 113.03 0)
+			(at 92.71 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2050,7 +1962,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 63.5 118.11 0)
+			(at 92.71 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2059,10 +1971,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "11a83f8c-659f-4995-9afb-973ba02a323b")
+			(uuid "21504b72-e597-4ed6-b37f-274040a24e06")
 		)
 		(pin "1"
-			(uuid "eec531ee-4ca9-460e-afa6-30b50ec69f13")
+			(uuid "0d590b72-3407-431f-acac-eecd8fd25037")
 		)
 		(instances
 			(project "3x4 keypad"
@@ -2074,16 +1986,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 121.92 95.25 0)
+		(lib_id "custom:SW_Push")
+		(at 121.92 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "721c1e34-34cc-4315-ad94-3d6839558458")
-		(property "Reference" "SW11"
-			(at 121.92 87.63 0)
+		(fields_autoplaced yes)
+		(uuid "6b7fbe24-735b-4627-b87e-65fd4f447d6c")
+		(property "Reference" "SW6"
+			(at 121.92 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2091,15 +2004,15 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 122.174 89.916 0)
+			(at 121.92 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 121.92 90.17 0)
+		(property "Footprint" "Button_Switch_THT:SW_CW_GPTS203211B"
+			(at 121.92 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2108,7 +2021,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 121.92 90.17 0)
+			(at 121.92 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2117,7 +2030,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 121.92 95.25 0)
+			(at 121.92 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2126,15 +2039,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "85489e5e-2000-4259-b17a-40c34c53f781")
+			(uuid "82fa967b-eb60-46d0-bf72-52f8f9dae75b")
 		)
 		(pin "1"
-			(uuid "eac99052-d501-4ae4-8770-2a6299c2aefb")
+			(uuid "2c4c7139-cddb-4eb5-9d04-5d1df38a6aa6")
 		)
 		(instances
 			(project "3x4 keypad"
 				(path "/4651e618-6a69-4037-8893-35a3e4e0587c"
-					(reference "SW11")
+					(reference "SW6")
 					(unit 1)
 				)
 			)
@@ -2228,6 +2141,74 @@
 		)
 	)
 	(symbol
+		(lib_id "custom:SW_Push")
+		(at 92.71 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7c861672-6a07-4449-835e-3d862167b8d9")
+		(property "Reference" "SW11"
+			(at 92.71 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 92.71 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_THT:SW_CW_GPTS203211B"
+			(at 92.71 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 92.71 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 92.71 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5a57239d-01c1-49bf-91c5-629b701563ee")
+		)
+		(pin "1"
+			(uuid "9696c2b9-ef00-454d-8fda-05e440b03fe6")
+		)
+		(instances
+			(project "3x4 keypad"
+				(path "/4651e618-6a69-4037-8893-35a3e4e0587c"
+					(reference "SW11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Diode:1N4148WT")
 		(at 113.03 72.39 0)
 		(mirror y)
@@ -2315,17 +2296,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 92.71 53.34 0)
+		(lib_id "custom:SW_Push")
+		(at 63.5 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "876e26ea-972a-4c29-a46f-7ce0d0385e37")
-		(property "Reference" "SW2"
-			(at 92.71 45.72 0)
+		(uuid "8209d43a-ec0f-4601-a875-0e361d53744d")
+		(property "Reference" "SW10"
+			(at 63.5 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2333,15 +2314,15 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 92.71 48.26 0)
+			(at 63.5 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 92.71 48.26 0)
+		(property "Footprint" "Button_Switch_THT:SW_CW_GPTS203211B"
+			(at 63.5 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2350,7 +2331,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 92.71 48.26 0)
+			(at 63.5 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2359,7 +2340,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 92.71 53.34 0)
+			(at 63.5 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2368,15 +2349,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "c1cf1e67-3672-4871-9207-9075dea0dfad")
+			(uuid "84663ce6-27eb-46c7-83cc-149fb74e203c")
 		)
 		(pin "1"
-			(uuid "61e8dc94-7b62-41b4-9c13-063b835f5fb8")
+			(uuid "26c5ecb1-b0cc-4555-904a-ca0f4a020251")
 		)
 		(instances
 			(project "3x4 keypad"
 				(path "/4651e618-6a69-4037-8893-35a3e4e0587c"
-					(reference "SW2")
+					(reference "SW10")
 					(unit 1)
 				)
 			)
@@ -2644,73 +2625,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 121.92 118.11 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9928ca0c-9f8b-49eb-9441-fde99812a09b")
-		(property "Reference" "SW12"
-			(at 121.92 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 122.174 112.776 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 121.92 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 121.92 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 121.92 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "6e5196b4-787f-47ec-b556-7e8f0eee84a5")
-		)
-		(pin "1"
-			(uuid "1012af58-f675-4a6c-84f6-6d0f06a2f928")
-		)
-		(instances
-			(project "3x4 keypad"
-				(path "/4651e618-6a69-4037-8893-35a3e4e0587c"
-					(reference "SW12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Diode:1N4148WT")
 		(at 83.82 53.34 0)
 		(mirror y)
@@ -2798,84 +2712,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 63.5 72.39 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9eac6f52-75ce-4173-8a63-2622dd317666")
-		(property "Reference" "SW4"
-			(at 63.5 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 63.5 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 63.5 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 63.5 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 63.5 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "1bb238b4-cee1-4304-ac14-9369480c2a64")
-		)
-		(pin "1"
-			(uuid "738437cf-ed25-4d6f-97dc-b9d0dc66d939")
-		)
-		(instances
-			(project "3x4 keypad"
-				(path "/4651e618-6a69-4037-8893-35a3e4e0587c"
-					(reference "SW4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 92.71 72.39 0)
+		(lib_id "custom:SW_Push")
+		(at 121.92 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "b1fa9537-d6cf-4f33-86c3-7eac43012da4")
-		(property "Reference" "SW5"
-			(at 92.71 64.77 0)
+		(uuid "9e8703f2-8c0f-433a-94ac-faa8d47e502b")
+		(property "Reference" "SW9"
+			(at 121.92 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2883,15 +2730,15 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 92.71 67.31 0)
+			(at 121.92 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 92.71 67.31 0)
+		(property "Footprint" "Button_Switch_THT:SW_CW_GPTS203211B"
+			(at 121.92 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2900,7 +2747,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 92.71 67.31 0)
+			(at 121.92 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2909,7 +2756,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 92.71 72.39 0)
+			(at 121.92 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2918,15 +2765,83 @@
 			)
 		)
 		(pin "2"
-			(uuid "b7483619-a116-4229-876d-e9bfa56381a4")
+			(uuid "f747a9af-5ab6-4aa1-9850-78deccb5facb")
 		)
 		(pin "1"
-			(uuid "f3490d2b-b30f-4412-9346-19465ee74156")
+			(uuid "04bbafe2-6a18-417a-b50b-ce5cf3d37bc0")
 		)
 		(instances
 			(project "3x4 keypad"
 				(path "/4651e618-6a69-4037-8893-35a3e4e0587c"
-					(reference "SW5")
+					(reference "SW9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "custom:SW_Push")
+		(at 121.92 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aac55651-2b27-4eef-ba00-4a3321793995")
+		(property "Reference" "SW12"
+			(at 121.92 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 121.92 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_THT:SW_CW_GPTS203211B"
+			(at 121.92 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 121.92 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 121.92 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3e88d1d7-1028-4d75-91dd-5a33e5b781d3")
+		)
+		(pin "1"
+			(uuid "41e4de43-db99-4664-8205-266198f71345")
+		)
+		(instances
+			(project "3x4 keypad"
+				(path "/4651e618-6a69-4037-8893-35a3e4e0587c"
+					(reference "SW12")
 					(unit 1)
 				)
 			)
@@ -3020,16 +2935,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 121.92 72.39 0)
+		(lib_id "custom:SW_Push")
+		(at 92.71 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "c64eddeb-784f-4510-aa9a-7cd39f6bdae3")
-		(property "Reference" "SW6"
-			(at 121.92 64.77 0)
+		(fields_autoplaced yes)
+		(uuid "bdf0a6dc-56d1-4da3-9e98-4f4ca9f7d564")
+		(property "Reference" "SW5"
+			(at 92.71 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3037,15 +2953,15 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 122.174 67.056 0)
+			(at 92.71 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 121.92 67.31 0)
+		(property "Footprint" "Button_Switch_THT:SW_CW_GPTS203211B"
+			(at 92.71 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3054,7 +2970,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 121.92 67.31 0)
+			(at 92.71 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3063,7 +2979,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 121.92 72.39 0)
+			(at 92.71 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3072,15 +2988,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "f7df0833-3fb3-4ec5-b3fd-59113067dfb2")
+			(uuid "77ff4e4c-1ada-4fc2-a1b0-641582bd5713")
 		)
 		(pin "1"
-			(uuid "cb58849c-4254-4c44-84cf-ed560d97ca94")
+			(uuid "b2c0dae8-12ea-4aa3-825a-c116f5fe7a60")
 		)
 		(instances
 			(project "3x4 keypad"
 				(path "/4651e618-6a69-4037-8893-35a3e4e0587c"
-					(reference "SW6")
+					(reference "SW5")
 					(unit 1)
 				)
 			)
@@ -3174,17 +3090,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 92.71 118.11 0)
+		(lib_id "custom:SW_Push")
+		(at 63.5 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "e604b8ad-c022-4934-ab0e-4dfbafb3ac49")
-		(property "Reference" "SW10"
-			(at 92.71 110.49 0)
+		(uuid "cb8276ef-a66e-4413-adb5-a323320a296c")
+		(property "Reference" "SW7"
+			(at 63.5 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3192,15 +3108,15 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 92.71 113.03 0)
+			(at 63.5 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 92.71 113.03 0)
+		(property "Footprint" "Button_Switch_THT:SW_CW_GPTS203211B"
+			(at 63.5 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3209,7 +3125,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 92.71 113.03 0)
+			(at 63.5 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3218,7 +3134,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 92.71 118.11 0)
+			(at 63.5 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3227,47 +3143,48 @@
 			)
 		)
 		(pin "2"
-			(uuid "4eba16ab-5c0e-4303-9857-ff29a42c059a")
+			(uuid "ce7c1520-2d7b-4706-a3d0-10c3aa32afde")
 		)
 		(pin "1"
-			(uuid "46adb824-a209-47f4-b262-f7394885193f")
+			(uuid "56001091-fa9c-4d86-9475-22085bf98c01")
 		)
 		(instances
 			(project "3x4 keypad"
 				(path "/4651e618-6a69-4037-8893-35a3e4e0587c"
-					(reference "SW10")
+					(reference "SW7")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 121.92 53.34 0)
+		(lib_id "custom:Conn_01x07_Pin")
+		(at 33.02 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "e6f635db-b8c7-40ae-8f53-8ef625a39960")
-		(property "Reference" "SW3"
-			(at 121.92 45.72 0)
+		(fields_autoplaced yes)
+		(uuid "d7ef1895-7930-48c9-a40e-aa67114ffbff")
+		(property "Reference" "J1"
+			(at 33.655 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "SW_Push"
-			(at 122.174 48.006 0)
+		(property "Value" "Conn_01x07_Pin"
+			(at 33.655 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 121.92 48.26 0)
+		(property "Footprint" "Connector_Hirose:Hirose_DF13-07P-1.25DS_1x07_P1.25mm_Horizontal"
+			(at 33.02 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3276,7 +3193,90 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 121.92 48.26 0)
+			(at 33.02 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x07, script generated"
+			(at 33.02 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "64b1c6ea-682f-4936-bb09-c778b3f145c3")
+		)
+		(pin "6"
+			(uuid "e0d4a07c-6cbf-454a-a8fe-948458f4d7b2")
+		)
+		(pin "2"
+			(uuid "c268c0d9-0d06-4b78-b8bb-9ccc91d53dfd")
+		)
+		(pin "1"
+			(uuid "9194c063-56c1-4b90-bd4a-99e307bcb4f8")
+		)
+		(pin "5"
+			(uuid "91fff338-e372-48f4-b01c-57890f80a8ad")
+		)
+		(pin "4"
+			(uuid "222b28c3-2c32-4480-9359-eaa14cd72dd7")
+		)
+		(pin "3"
+			(uuid "59bca8ef-c704-4949-aabf-0a05d94cf63c")
+		)
+		(instances
+			(project ""
+				(path "/4651e618-6a69-4037-8893-35a3e4e0587c"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "custom:SW_Push")
+		(at 63.5 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eab66ad0-d5d2-4510-9af8-e4e5f51b85f9")
+		(property "Reference" "SW4"
+			(at 63.5 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 63.5 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_THT:SW_CW_GPTS203211B"
+			(at 63.5 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 63.5 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3285,7 +3285,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 121.92 53.34 0)
+			(at 63.5 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3294,15 +3294,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "46d5068f-8ab9-44e2-b5f9-1f8f661f7cc6")
+			(uuid "25c53587-f53b-4774-819e-b8066ff1db51")
 		)
 		(pin "1"
-			(uuid "e5ae2aa1-8317-4e52-9de6-be01ad0cb845")
+			(uuid "f2480333-385f-4690-992e-db080e6edd70")
 		)
 		(instances
 			(project "3x4 keypad"
 				(path "/4651e618-6a69-4037-8893-35a3e4e0587c"
-					(reference "SW3")
+					(reference "SW4")
 					(unit 1)
 				)
 			)
